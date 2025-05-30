@@ -8,7 +8,7 @@ import random
 model = YOLO("runs/detect/train2/weights/best.pt")  # or your custom-trained weights
 
 # --- Load image ---
-img_path = "route1.jpg"
+img_path = "route_examples/route1.jpg"
 image = cv2.imread(img_path)
 img_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
