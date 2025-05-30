@@ -2,4 +2,4 @@ from ultralytics import YOLO
 
 model = YOLO("runs/detect/train2/weights/best.pt")
 
-results = model("route1.jpg", save=True, conf=0.25)
+results = model("climbing_route_new.png", save=True, conf=0.5) # Change the confidence threshold as needed
