@@ -1,0 +1,5 @@
+climbing_dataset/
+runs/
+*.pt
+*.jpg
+*.png
