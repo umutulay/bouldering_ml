@@ -31,3 +31,5 @@ This project uses a custom-trained YOLOv8 model to detect climbing holds from an
 
 `python climbing_route_prediction.py`
 
+## Authors
+* Umut Tulay - [umutulay](https://github.com/umutulay)
